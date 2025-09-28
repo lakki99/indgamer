@@ -1,17 +1,17 @@
 import os
 
 class Config(object):
-  API_ID = int(os.environ.get("API_ID", ""))
-  API_HASH = os.environ.get("API_HASH", "")
-  BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "")
-  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", ""))
-  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "MoneyKamalo.com")
-  SHORTLINK_API = os.environ.get('SHORTLINK_API', "0eefb93e1e3ce9470a7033115ceb1bad13a9d674")
-  BOT_OWNER = int(os.environ.get("BOT_OWNER", ""))
-  DATABASE_URL = os.environ.get("DATABASE_URL", "")
-  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", ""))
+  API_ID = int(os.environ.get("API_ID", "28408609"))
+  API_HASH = os.environ.get("API_HASH", "d6ddeafb0c189d91b8197ad49103e806")
+  BOT_TOKEN = os.environ.get("BOT_TOKEN", "8452718305:AAGfNMdJOm-1IqDr007ctJMNZZ-sS_cStH0")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "Sample_tests_bot")
+  DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1002563651230"))
+  SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "arolinks.com")
+  SHORTLINK_API = os.environ.get('SHORTLINK_API', "4574770a1b3e06b54b609f961e87efe837ea31cf")
+  BOT_OWNER = int(os.environ.get("BOT_OWNER", "8134543713"))
+  DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://teddugovardhan544_db_user:WVjIA96jQ31net0j@cluster0.kwkkleo.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1003094845380")
+  LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002563651230"))
   BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "").split())
   FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
   BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", True))
@@ -32,11 +32,11 @@ Send Me any Media or File. I can Work In Channel too. Add Me to Channel with Edi
 ╰──────[ 😎 ]───────────⍟
 """
   ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/KingVj01)
+🧑🏻‍💻 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿: [VJ](https://telegram.me/lakki_reddy3)
  
  I am Super noob Please Support My Hard Work.
 
-[Donate Me](https://t.me/KingVj01)
+[Donate Me](https://t.me/lakki_reddy3)
 """
   HOME_TEXT = """
 Hello, [{}](tg://user?id={})\n\nThis is a Permanent **FileStore Bot**.
